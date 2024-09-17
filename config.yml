@@ -1,5 +1,5 @@
 model_path:
-  large: 'models\mistral-7b-instruct-v0.1.Q4_K_M.gguf'
+  large: 'YOUR_MODEL_PATH'
 
 model_type: 'mistral'
 
