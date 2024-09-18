@@ -22,9 +22,6 @@ def main():
                     unsafe_allow_html=True)
         st.markdown("<h7 style='text-align: justify;font-family: Helvetica;font-size:25px;'> Hi, my name is Walkie. " 
                     "You can talk to me about your walking journey or just have a quick chat about weather. I am always here for you! </h7>", unsafe_allow_html=True)
-        st.markdown("-------")
-        st.markdown("<h1 style='text-align:center;font-family: Helvetica;font-size:25px;'> Adjust Text Size",
-                    unsafe_allow_html=True)
 
     #chat initialisation
     chat_container = st.container()
