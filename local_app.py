@@ -26,18 +26,6 @@ def main():
         st.markdown("<h1 style='text-align:center;font-family: Helvetica;font-size:25px;'> Adjust Text Size",
                     unsafe_allow_html=True)
 
-    #font changing
-    col1, col2, col3 = st.sidebar.columns(3)
-    with col1:
-        if st.button(r"$\small\textsf{Small}$", use_container_width = True,type="primary"):
-            st.session_state.write_size = "###### "
-    with col2:
-        if st.button(r"$\normalsize\textsf{Medium}$",use_container_width = True, type="primary"):
-            st.session_state.write_size = "#### "
-    with col3:
-        if st.button(r"$\large\textsf{Large}$",use_container_width = True, type="primary"):
-            st.session_state.write_size = "## "
-
     #chat initialisation
     chat_container = st.container()
     chat_history = StreamlitChatMessageHistory(key = "history") #logs llm output in history
