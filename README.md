@@ -13,7 +13,6 @@ LLM can be downloaded at https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.
 In the config.yaml file, change YOUR_MODEL_PATH to the actual path of the model
 you downloaded in the previous step.
 ### 4. Install the Required Packages
-Install the required packages, they are listed in the requirements.tex file in the reposi-
-tory.
+Install the required packages, they are listed in the requirements.tex file in the repository.
 ### 5.Run the Application
 Use terminal to execute the command ’streamlit run local_app.py’.
